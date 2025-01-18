@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Employee management System</h1>
+    <form action="" method="get">
+        
+       <table border="1" cellpadding="5">
+        <tr>
+            <th> <label for="empid">ID:</label> </th>
+            <td> <input type="text" name="empid" placeholder="User id" id="empid" required> </td>
+        </tr>
+        <tr>
+            <th> <label for="empname">Name:</label> </th>
+            <td> <input type="text" name="empname" placeholder="User name" id="empname" required> </td>
+        </tr>
+        <tr>
+            <th>
+                <label for="empemail">Email:</label></th>
+                <td> <input type="email" name="empemail" placeholder="Email" id="empemail" required></td>
+        </tr>
+
+        <tr>
+            <th>
+                <label for="emppassword">password:</label></th>
+                <td> <input type="password" name="emppassword" placeholder="password" id="emppassword" required></td>
+        </tr>
+        <tr>
+            <th>
+                <label for="address">Address:</label></th>
+                <td> <textarea name="empaddress" id="empaddress" rows="3" cols="25"></textarea></td>
+        </tr>
+        <tr>
+            <th><label for="empgender">Gender:</label></th>
+            <td> 
+                <input type="radio" name="empgender" value="male">Male 
+                <input type="radio" name="empgender" value="female">Female 
+                <input type="radio" name="empgender" value="others">Others
+            </td>
+        </tr>
+
+        <tr>
+            <th><label for="city">City:</label></th>
+            <td> 
+               <select name="empcity" id="empcity">
+                <option value="patna">Patna</option>
+                <option value="gaya">Gaya</option>
+                <option value="aarah">Aarah</option>
+               </select>
+            </td>
+        </tr>
+        <!-- qualification -->
+         <tr>
+            <th><label for="qualification">Qualification:</label></th>
+            <td>
+                <input type="checkbox" name="Qualification">10th
+                <input type="checkbox" name="Qualification">12th
+                <input type="checkbox" name="Qualification">Graduation
+            </td>
+         </tr>
+         <tr>
+            <th><label for="">DOB:</label></th>
+            <td><input type="date" name="dob"></td>
+         </tr>
+         <tr>
+             <th><label for="time">Time:</label></th>
+             <td><input type="time" name="time"></td>
+            </tr>
+
+         
+         <tr>
+            <th></th>
+            <td>
+                <input type="submit" value="submit">
+                <button type="reset" value="reset">Reset</button>
+            </td>
+         </tr>
+         
+       </table>
+</form>
+</center>
+</body>
+</html>
+
+
+
+<!-- attributes of input -->
+ <!-- date
+ Name
+ value 
+ password
+ email
+ maxlength
+ radio
+ checkbox
+ required 
+ readonly 
+ -->
